@@ -1,0 +1,26 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- 가상환경 ----
+venv/
+env/
+.venv/
+susi_env/
+
+# ---- OS / 에디터 ----
+.DS_Store
+.vscode/
+.idea/
+.claude/
+
+# ---- 로그 / 런타임 산출물 ----
+*.log
+debug_runtime/
+
+# ---- 대용량 원천 데이터(필요시 별도 보관) ----
+# 수집한 원본 프레임 이미지 모음 등
+knn_model/A/
+knn_model/A 2/
